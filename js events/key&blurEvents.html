@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Key Board Events</title>
+        <script src="colors.js"></script>
+    </head>
+    <body>
+        <center><div style="background-color: rgb(218, 235, 235);height: 300px;width: 300px;" id="col"></div></center><br><br>
+        <center><div>
+        <p><b>Note:</b></p>
+        <p>Place mouse cursor inside the text box below to change the color to pink</p>
+        <p>Press any key down to change the color to blue</p>
+        <p>Press any key up to change the color to black</p>
+        <p>press ank key to change the color to red</p>
+        <p>move out the cursor from the text box to change the color to yellow</p>
+        <input type="text" onblur="yellow()" onkeypress="red()" onfocus="pink()" onkeydown="blue()" onkeyup="black()">
+        </div></center>
+    </body>
+</html>

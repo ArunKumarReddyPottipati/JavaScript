@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let obj={id:123,name:"abc",age:23}
+            console.log(obj)
+            obj["gender"]="male"
+            console.log(obj)
+            obj["id"]=90
+            console.log(obj)
+            delete obj["id"]
+            console.log(obj)
+            for(i in obj)
+        {
+            console.log(obj[i])
+        }
+        if("gender" in obj)
+        {
+            console.log("Yes")
+        }
+        </script>
+    </body>
+</html>
